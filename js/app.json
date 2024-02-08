@@ -1,0 +1,37 @@
+[
+     {
+       "composicion":"algodon",
+        "color1":"#f00710fa",
+        "color2":"#0d6efd",
+        "color3":"#03c871fa",
+        "color4":"#000000"
+     },
+     {
+        "composicion":"lana",
+         "color1":"#86dbeb",
+         "color2":"#0d6efd",
+         "color3":"#ffffff",
+         "color4":"#000000"
+      },
+      {
+        "composicion":"acrilico",
+         "color1":"#e7f27dfa",
+         "color2":"#a2efcdfa",
+         "color3":"#03c871fa",
+         "color4":"#000000"
+      },
+      {
+        "composicion":"bamboo",
+         "color1":"#f00710fa",
+         "color2":"#86dbeb",
+         "color3":"#03c871fa",
+         "color4":"#adb5bd"
+      },
+      {
+        "composicion":"merino",
+         "color1":"#f00710fa",
+         "color2":"#b110defa",
+         "color3":"#eb86af",
+         "color4":"#000000"
+      }
+]
