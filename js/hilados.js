@@ -1,5 +1,5 @@
 function cargarJson() {
-    const url = 'http://127.0.0.1:5502/js/app.json'
+    const url = 'https://natalialt.github.io/panaldelana/js/app.json'
     fetch(url)
    .then((response)=> {
         return response.json()
