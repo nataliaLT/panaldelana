@@ -1,5 +1,6 @@
 const btnCarrito = document.querySelector('.btn-carrito');
 const carroCompra = document.querySelector('.carro-compra');
+const btnRealizarPedido = document.querySelector('.btn-realizar-pedido');
 
 const carroCompraWrapper = document.querySelector('.carro-compra .wrapper');
 
@@ -11,6 +12,12 @@ const wrapperSubtotal = document.querySelector('.wrapper-subtotal');
 //let btnCarro = document.querySelectorAll('.carrito');
 creacionTarjetaCarro()
 
+btnRealizarPedido.addEventListener('click', function() {
+    carroCompraWrapper.innerHTML = '';
+    wrapperSubtotal.innerHTML = '';
+    localStorage.clear()
+    alert('Su pedido a sido realizado. Muchas gracias por comprar con nosotros :). ')
+})
 
 btnCarrito.addEventListener('click', function() {
 
